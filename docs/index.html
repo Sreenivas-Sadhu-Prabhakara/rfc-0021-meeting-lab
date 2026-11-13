@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meeting follow-up register</title>
+<style>
+:root { background: #f1f5f4; color: #162d34; font: 17px/1.55 system-ui, sans-serif; }
+main { max-width: 900px; margin: auto; padding: 36px 22px; }
+h1 { font-size: clamp(2.2rem, 6vw, 3.7rem); line-height: 1.06; margin: .2em 0; }
+h2 { font-size: 1.25rem; }
+a { color: #115e67; }
+article { background: white; border: 1px solid #b6cdca; border-radius: 8px; padding: 14px 18px; }
+section { margin: 1.4rem 0; overflow-wrap: anywhere; }
+li { margin-bottom: .55em; }
+small { color: #37565e; }
+</style>
+</head>
+<body><main>
+<h1>Network meeting at UCLA</h1>
+<p>Meeting follow-up register as of <time>1969-10-17</time></p>
+<section aria-label="Actions">
+<h2>Actions</h2>
+<article>
+<strong>Publish the follow-up on transmitting multiple control messages.</strong>
+<p>open · George Gregg<br><small>RFC 21 §3</small></p>
+
+<ul><li>Missing deadline</li></ul>
+</article>
+</section>
+<section aria-label="Decisions"><h2>Decisions</h2><p>None recorded in this input.</p></section>
+<section aria-label="Questions"><h2>Questions</h2><ul><li>Should unused entries expire after 26 seconds or only when the transmit table is full? The memo records the exchange. <small>(RFC 21 §1, Cerf and Crocker discussion)</small></li></ul></section>
+<section aria-label="Notes"><h2>Notes</h2><ul><li>Reported BBN memo changes capped active transmit and receive links at 63 each and discarded a new-link message when the transmit table was full. <small>(RFC 21 §1, BBN Memo 1822 p. 11)</small></li><li>A measurement message could be discarded at the destination IMP without reaching its host. The notes also correct a type number from octal 10 to decimal 8. <small>(RFC 21 §1, BBN Memo 1822 pp. 13 and 17)</small></li><li>The notes point to RFC 22 for changes to the work described in RFC 11 and mention a forthcoming revision. <small>(RFC 21 §2)</small></li></ul></section>
+<p><a href="https://www.rfc-editor.org/info/rfc21/">Official RFC 21</a> · <a href="https://github.com/Sreenivas-Sadhu-Prabhakara/rfc-0021-meeting-lab">Go source and run instructions</a></p>
+</main></body></html>
+

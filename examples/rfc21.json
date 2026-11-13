@@ -1,0 +1,37 @@
+{
+  "title": "Network meeting at UCLA",
+  "as_of": "1969-10-17",
+  "items": [
+    {
+      "id": "capacity",
+      "kind": "note",
+      "summary": "Reported BBN memo changes capped active transmit and receive links at 63 each and discarded a new-link message when the transmit table was full.",
+      "source": "RFC 21 §1, BBN Memo 1822 p. 11"
+    },
+    {
+      "id": "idle-expiry",
+      "kind": "question",
+      "summary": "Should unused entries expire after 26 seconds or only when the transmit table is full? The memo records the exchange.",
+      "source": "RFC 21 §1, Cerf and Crocker discussion"
+    },
+    {
+      "id": "measurement",
+      "kind": "note",
+      "summary": "A measurement message could be discarded at the destination IMP without reaching its host. The notes also correct a type number from octal 10 to decimal 8.",
+      "source": "RFC 21 §1, BBN Memo 1822 pp. 13 and 17"
+    },
+    {
+      "id": "revision",
+      "kind": "note",
+      "summary": "The notes point to RFC 22 for changes to the work described in RFC 11 and mention a forthcoming revision.",
+      "source": "RFC 21 §2"
+    },
+    {
+      "id": "publish-rfc23",
+      "kind": "action",
+      "summary": "Publish the follow-up on transmitting multiple control messages.",
+      "source": "RFC 21 §3",
+      "owner": "George Gregg"
+    }
+  ]
+}
